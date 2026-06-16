@@ -1,0 +1,5 @@
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/.utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/.utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/.utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/.utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/.utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

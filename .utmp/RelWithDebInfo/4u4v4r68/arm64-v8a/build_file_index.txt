@@ -1,0 +1,2 @@
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

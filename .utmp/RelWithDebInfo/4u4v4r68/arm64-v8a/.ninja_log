@@ -1,0 +1,19 @@
+# ninja log v5
+7	843	1778152339651962649	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	15d2bb023cd2539e
+7	854	1778152339659727929	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9e61251ee1b80dac
+7	878	1778152339687419787	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f2b6e860edac14d2
+7	883	1778152339694727553	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6cc9402ff6a11c83
+7	976	1778152339787823432	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	635fb9b925c9d01a
+7	1108	1778152339919675312	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	95a043023994f21c
+6	1218	1778152340028663560	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b2aa8be1783bc499
+7	928	1778152339740204493	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9eb49aa838c2890d
+1218	1300	1778152340114445631	/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4u4v4r68/obj/arm64-v8a/libgame.so	aff2fc1016f1859f
+35	1202	1778238828266775067	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9e61251ee1b80dac
+35	1204	1778238828266782221	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	15d2bb023cd2539e
+34	1208	1778238828272670830	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f2b6e860edac14d2
+35	1218	1778238828284898420	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6cc9402ff6a11c83
+35	1237	1778238828304626437	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9eb49aa838c2890d
+35	1288	1778238828354393825	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	635fb9b925c9d01a
+35	1436	1778238828502447191	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	95a043023994f21c
+34	1532	1778238828599573890	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b2aa8be1783bc499
+1532	1626	1778238828694754830	/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4u4v4r68/obj/arm64-v8a/libgame.so	aff2fc1016f1859f

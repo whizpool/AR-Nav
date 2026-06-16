@@ -1,0 +1,19 @@
+# ninja log v5
+4	787	1778152341636261909	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e230a5447da87892
+4	813	1778152341664053402	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3e8036cd656685c8
+5	784	1778152341632598512	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	a223c3854f08ee88
+5	828	1778152341678829099	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6b1f5d66bf23d396
+4	862	1778152341713373885	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7e3e2a034d53c006
+5	923	1778152341773990435	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	bb83fd98310d262b
+5	1038	1778152341889469712	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c85f9a73951a324
+4	1143	1778152341994084549	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2566a4bbd3325797
+1143	1224	1778152342078500192	/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4u4v4r68/obj/armeabi-v7a/libgame.so	127d2c3d1977819
+5	815	1778238830243410592	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e230a5447da87892
+6	817	1778238830243528638	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	a223c3854f08ee88
+5	850	1778238830277851820	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3e8036cd656685c8
+6	851	1778238830278154517	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6b1f5d66bf23d396
+5	894	1778238830324262255	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7e3e2a034d53c006
+6	949	1778238830379712959	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	bb83fd98310d262b
+6	1080	1778238830510166739	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c85f9a73951a324
+5	1184	1778238830612583189	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2566a4bbd3325797
+1184	1273	1778238830704810904	/Users/asd/Documents/UnityProjects/AR Mobile/AR Navigation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4u4v4r68/obj/armeabi-v7a/libgame.so	127d2c3d1977819
