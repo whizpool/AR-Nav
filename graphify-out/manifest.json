@@ -1,0 +1,1562 @@
+{
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/cache-v2-0281762e9ae832ae8c1a.json": {
+    "mtime": 1781776499.663284,
+    "ast_hash": "0493a523e434bbdd1271085179b9fe80",
+    "semantic_hash": "0493a523e434bbdd1271085179b9fe80"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-1d16038b6865e01a6922.json": {
+    "mtime": 1781776499.6641543,
+    "ast_hash": "db4d2a7c3288e83a5b0fe5b0f0a11d4b",
+    "semantic_hash": "db4d2a7c3288e83a5b0fe5b0f0a11d4b"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-60cb7a8f5583f236454c.json": {
+    "mtime": 1781765205.7637596,
+    "ast_hash": "ee6a51d977e23c6e3f5fdd983bf57081",
+    "semantic_hash": "ee6a51d977e23c6e3f5fdd983bf57081"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json": {
+    "mtime": 1781765205.762596,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-Debug-f368e6d506ea21fe2607.json": {
+    "mtime": 1781765205.7631803,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/index-2026-07-02T09-21-53-0616.json": {
+    "mtime": 1782984113.6168544,
+    "ast_hash": "bace348a23d8690ab53706792407fc15",
+    "semantic_hash": "bace348a23d8690ab53706792407fc15"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/.cmake/api/v1/reply/target-game-Debug-6c1375f8a9d82540e961.json": {
+    "mtime": 1781765205.7617579,
+    "ast_hash": "9569907c08f975bc77a6982c28e1d6e8",
+    "semantic_hash": "9569907c08f975bc77a6982c28e1d6e8"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1781765204.8468018,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1781765204.9677732,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/android_gradle_build.json": {
+    "mtime": 1782984113.627452,
+    "ast_hash": "701d72f95fdef1e58baa9c76e8e25f58",
+    "semantic_hash": "701d72f95fdef1e58baa9c76e8e25f58"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/android_gradle_build_mini.json": {
+    "mtime": 1782984113.6327915,
+    "ast_hash": "8e9561dcbb8e2ccb1944f066f0830639",
+    "semantic_hash": "8e9561dcbb8e2ccb1944f066f0830639"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/compile_commands.json": {
+    "mtime": 1782984113.5969288,
+    "ast_hash": "51f9f99b56918d472478f6aaf12e8fe7",
+    "semantic_hash": "51f9f99b56918d472478f6aaf12e8fe7"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/prefab_config.json": {
+    "mtime": 1781765205.905746,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/cache-v2-4e272fa3ba9959aede09.json": {
+    "mtime": 1781776501.4786708,
+    "ast_hash": "d34ddfe6146a3de63d8ef0354baa0a08",
+    "semantic_hash": "d34ddfe6146a3de63d8ef0354baa0a08"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-213048c131b7937fa182.json": {
+    "mtime": 1781776501.4795103,
+    "ast_hash": "1fb07cb31c2e2c087fb614525931f9cf",
+    "semantic_hash": "1fb07cb31c2e2c087fb614525931f9cf"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-b1c26c0545e710c4b3d1.json": {
+    "mtime": 1781765210.836498,
+    "ast_hash": "222488a0f0d977b68c581ca6ec6d0cfd",
+    "semantic_hash": "222488a0f0d977b68c581ca6ec6d0cfd"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json": {
+    "mtime": 1781765210.8352988,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/directory-GameActivity-Debug-f368e6d506ea21fe2607.json": {
+    "mtime": 1781765210.8359096,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/index-2026-07-02T09-21-55-0834.json": {
+    "mtime": 1782984115.8341503,
+    "ast_hash": "3ff9b70aad40cf3bd0c37f1fab747ed8",
+    "semantic_hash": "3ff9b70aad40cf3bd0c37f1fab747ed8"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/.cmake/api/v1/reply/target-game-Debug-cc0bdf58068626ca419b.json": {
+    "mtime": 1781765210.8343709,
+    "ast_hash": "d4be19f09612e56a4967bc0055f038da",
+    "semantic_hash": "d4be19f09612e56a4967bc0055f038da"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1781765209.910146,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1781765210.0290709,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/android_gradle_build.json": {
+    "mtime": 1782984115.8387206,
+    "ast_hash": "2835ab1621987f84c0cef9b1d07577ba",
+    "semantic_hash": "2835ab1621987f84c0cef9b1d07577ba"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/android_gradle_build_mini.json": {
+    "mtime": 1782984115.8422487,
+    "ast_hash": "90df1a354135fa92418b6582254dc95a",
+    "semantic_hash": "90df1a354135fa92418b6582254dc95a"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/compile_commands.json": {
+    "mtime": 1782984115.8229713,
+    "ast_hash": "8c10870ff8ed5c5cd2c5142cd69c78ee",
+    "semantic_hash": "8c10870ff8ed5c5cd2c5142cd69c78ee"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/prefab_config.json": {
+    "mtime": 1781765210.8612132,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/cache-v2-c327b9ac0e113a76daf8.json": {
+    "mtime": 1777441227.0182302,
+    "ast_hash": "123276b112d9d6de5ab1945779d8b7ba",
+    "semantic_hash": "123276b112d9d6de5ab1945779d8b7ba"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-383c04a82c9b728f2cc9.json": {
+    "mtime": 1777441227.019018,
+    "ast_hash": "736c7ab6f5b8f6d1ae28a81f552dce7d",
+    "semantic_hash": "736c7ab6f5b8f6d1ae28a81f552dce7d"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-509094aff368a08e002d.json": {
+    "mtime": 1777439825.0297697,
+    "ast_hash": "15653fcc2ed7937083f11b8b2becab33",
+    "semantic_hash": "15653fcc2ed7937083f11b8b2becab33"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json": {
+    "mtime": 1777439825.0286522,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-Debug-f368e6d506ea21fe2607.json": {
+    "mtime": 1777439825.029258,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/index-2026-05-08T11-54-28-0473.json": {
+    "mtime": 1778241268.4735396,
+    "ast_hash": "cc9f4857dfc97744a5f3b051b9c187cf",
+    "semantic_hash": "cc9f4857dfc97744a5f3b051b9c187cf"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/.cmake/api/v1/reply/target-game-Debug-531fae2f366eac8dcc33.json": {
+    "mtime": 1777439825.0279057,
+    "ast_hash": "0ec6fef18a40c29bd3bcec2af542f167",
+    "semantic_hash": "0ec6fef18a40c29bd3bcec2af542f167"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1777439824.2973678,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1777439824.3687744,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/android_gradle_build.json": {
+    "mtime": 1778241268.515723,
+    "ast_hash": "af6ce92407c146b3a089c98d4884213b",
+    "semantic_hash": "af6ce92407c146b3a089c98d4884213b"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/android_gradle_build_mini.json": {
+    "mtime": 1778241268.551077,
+    "ast_hash": "751fd3d54234d12c1c7055bdb36ea0c3",
+    "semantic_hash": "751fd3d54234d12c1c7055bdb36ea0c3"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/compile_commands.json": {
+    "mtime": 1778241268.457337,
+    "ast_hash": "7e25b9fe5ee06166080e88f9df971047",
+    "semantic_hash": "7e25b9fe5ee06166080e88f9df971047"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/prefab_config.json": {
+    "mtime": 1777439825.1401823,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/cache-v2-3aa065115b1bbb0d50d3.json": {
+    "mtime": 1777441229.1899326,
+    "ast_hash": "3b0249352991c552b2c9b24b6fab40c6",
+    "semantic_hash": "3b0249352991c552b2c9b24b6fab40c6"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-abca58704bb77ed1a1e9.json": {
+    "mtime": 1777441229.190728,
+    "ast_hash": "bc45aa50e07149cf1c99b6c1b6b39e64",
+    "semantic_hash": "bc45aa50e07149cf1c99b6c1b6b39e64"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-3eca11c525facc1223da.json": {
+    "mtime": 1777439829.679895,
+    "ast_hash": "7c83285326b24d89124ed0854e6a2a24",
+    "semantic_hash": "7c83285326b24d89124ed0854e6a2a24"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json": {
+    "mtime": 1777439829.6787915,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/directory-GameActivity-Debug-f368e6d506ea21fe2607.json": {
+    "mtime": 1777439829.6792524,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/index-2026-05-08T11-54-31-0725.json": {
+    "mtime": 1778241271.7258346,
+    "ast_hash": "207ce2194225b009cf32e0965dec2e54",
+    "semantic_hash": "207ce2194225b009cf32e0965dec2e54"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/.cmake/api/v1/reply/target-game-Debug-2a3f4150e2385b772b68.json": {
+    "mtime": 1777439829.6780784,
+    "ast_hash": "9cc594e591311fb19b153f1e748b1b67",
+    "semantic_hash": "9cc594e591311fb19b153f1e748b1b67"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1777439828.7818806,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1777439828.8987892,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/android_gradle_build.json": {
+    "mtime": 1778241271.739229,
+    "ast_hash": "9ee1c5a0ce33fde178ed9857f7c4b1da",
+    "semantic_hash": "9ee1c5a0ce33fde178ed9857f7c4b1da"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/android_gradle_build_mini.json": {
+    "mtime": 1778241271.7469304,
+    "ast_hash": "43d2851c716175f2edd9d7c710cac4d6",
+    "semantic_hash": "43d2851c716175f2edd9d7c710cac4d6"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/compile_commands.json": {
+    "mtime": 1778241271.711213,
+    "ast_hash": "50a48617960b9c925284d5d1e11afab4",
+    "semantic_hash": "50a48617960b9c925284d5d1e11afab4"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/prefab_config.json": {
+    "mtime": 1777439829.7021987,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/cache-v2-97344a06d92ed255aa1d.json": {
+    "mtime": 1772622357.7410748,
+    "ast_hash": "6832c12174f50b04afe1d9089b45cc05",
+    "semantic_hash": "6832c12174f50b04afe1d9089b45cc05"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-9d4fba8ae3eb93400754.json": {
+    "mtime": 1772622357.7419078,
+    "ast_hash": "54c84f891452e4bce8acb66774d0206c",
+    "semantic_hash": "54c84f891452e4bce8acb66774d0206c"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-990fc560fa4490e5cbb7.json": {
+    "mtime": 1772621544.954166,
+    "ast_hash": "745f40f39d9e153ef32bc83c40ee69aa",
+    "semantic_hash": "745f40f39d9e153ef32bc83c40ee69aa"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-f5ebdc15457944623624.json": {
+    "mtime": 1772621544.9534633,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-RelWithDebInfo-f368e6d506ea21fe2607.json": {
+    "mtime": 1772621544.953795,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/index-2026-05-08T11-13-46-0985.json": {
+    "mtime": 1778238826.9851747,
+    "ast_hash": "427fadcd4ac13ba8be09e090bbb5315f",
+    "semantic_hash": "427fadcd4ac13ba8be09e090bbb5315f"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/.cmake/api/v1/reply/target-game-RelWithDebInfo-6874fe74cd33e6f4324f.json": {
+    "mtime": 1772621544.9528892,
+    "ast_hash": "f578557e11791cbf57ff7b90cc7c47bb",
+    "semantic_hash": "f578557e11791cbf57ff7b90cc7c47bb"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1772621544.2638478,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1772621544.3639464,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/android_gradle_build.json": {
+    "mtime": 1778238827.0146549,
+    "ast_hash": "6f9c3c5e315506bd6b378e45c00ce325",
+    "semantic_hash": "6f9c3c5e315506bd6b378e45c00ce325"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/android_gradle_build_mini.json": {
+    "mtime": 1778238827.0355263,
+    "ast_hash": "22ac226c9fdbb63ae4b3630370a9376e",
+    "semantic_hash": "22ac226c9fdbb63ae4b3630370a9376e"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/compile_commands.json": {
+    "mtime": 1778238826.9735966,
+    "ast_hash": "bd8f8c55a65724bfa8d0f3be351f3743",
+    "semantic_hash": "bd8f8c55a65724bfa8d0f3be351f3743"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/prefab_config.json": {
+    "mtime": 1772621545.0210104,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/cache-v2-0ee86949e114daa66118.json": {
+    "mtime": 1777382603.759717,
+    "ast_hash": "cf105f565da5a6aaafe2a1f4722c7f75",
+    "semantic_hash": "cf105f565da5a6aaafe2a1f4722c7f75"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-9d182cbd6c43fca652ec.json": {
+    "mtime": 1777382603.760637,
+    "ast_hash": "8a531c08e02bed102dd2cf4ea33dd5ab",
+    "semantic_hash": "8a531c08e02bed102dd2cf4ea33dd5ab"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-af9af5cd91fb5f176187.json": {
+    "mtime": 1777359047.285137,
+    "ast_hash": "61d12b375c9d99f8c3be09c459476c10",
+    "semantic_hash": "61d12b375c9d99f8c3be09c459476c10"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-f5ebdc15457944623624.json": {
+    "mtime": 1777359047.28414,
+    "ast_hash": "75530bf7d3582c583c49d627c76aa8d1",
+    "semantic_hash": "75530bf7d3582c583c49d627c76aa8d1"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/directory-GameActivity-RelWithDebInfo-f368e6d506ea21fe2607.json": {
+    "mtime": 1777359047.2846181,
+    "ast_hash": "a269d2e27ab1e61eeccc53d3cafe39b0",
+    "semantic_hash": "a269d2e27ab1e61eeccc53d3cafe39b0"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/index-2026-05-08T11-13-49-0403.json": {
+    "mtime": 1778238829.40397,
+    "ast_hash": "7ec0725d6f9d3a81ddb04d53e5c54e9c",
+    "semantic_hash": "7ec0725d6f9d3a81ddb04d53e5c54e9c"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/.cmake/api/v1/reply/target-game-RelWithDebInfo-109b27e9e9f8306f5ff7.json": {
+    "mtime": 1777359047.2832327,
+    "ast_hash": "40895241135472b0537b23692336e4cc",
+    "semantic_hash": "40895241135472b0537b23692336e4cc"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c": {
+    "mtime": 1777359046.4370341,
+    "ast_hash": "0aa0aed50d575f16b438cc34ef92832c",
+    "semantic_hash": "0aa0aed50d575f16b438cc34ef92832c"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp": {
+    "mtime": 1777359046.5448034,
+    "ast_hash": "d2497dd731edaf49ea8e7bdcc8f58b17",
+    "semantic_hash": "d2497dd731edaf49ea8e7bdcc8f58b17"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/android_gradle_build.json": {
+    "mtime": 1778238829.4101648,
+    "ast_hash": "560942f31ab7509811b31eda065acb1f",
+    "semantic_hash": "560942f31ab7509811b31eda065acb1f"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/android_gradle_build_mini.json": {
+    "mtime": 1778238829.414997,
+    "ast_hash": "a6a2367df1e3dd8041c5aea247ff34e6",
+    "semantic_hash": "a6a2367df1e3dd8041c5aea247ff34e6"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/compile_commands.json": {
+    "mtime": 1778238829.3939946,
+    "ast_hash": "d533daac08e121683f80f8c483da8af3",
+    "semantic_hash": "d533daac08e121683f80f8c483da8af3"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/prefab_config.json": {
+    "mtime": 1777359047.3076658,
+    "ast_hash": "75ad54209676e06830c220c7d1d0782b",
+    "semantic_hash": "75ad54209676e06830c220c7d1d0782b"
+  },
+  ".utmp/tools/debug/arm64-v8a/compile_commands.json": {
+    "mtime": 1781765205.7462318,
+    "ast_hash": "51f9f99b56918d472478f6aaf12e8fe7",
+    "semantic_hash": "51f9f99b56918d472478f6aaf12e8fe7"
+  },
+  ".utmp/tools/debug/armeabi-v7a/compile_commands.json": {
+    "mtime": 1781765210.8178852,
+    "ast_hash": "8c10870ff8ed5c5cd2c5142cd69c78ee",
+    "semantic_hash": "8c10870ff8ed5c5cd2c5142cd69c78ee"
+  },
+  ".utmp/tools/release/arm64-v8a/compile_commands.json": {
+    "mtime": 1772621544.9416425,
+    "ast_hash": "bd8f8c55a65724bfa8d0f3be351f3743",
+    "semantic_hash": "bd8f8c55a65724bfa8d0f3be351f3743"
+  },
+  ".utmp/tools/release/armeabi-v7a/compile_commands.json": {
+    "mtime": 1777359047.2685094,
+    "ast_hash": "d533daac08e121683f80f8c483da8af3",
+    "semantic_hash": "d533daac08e121683f80f8c483da8af3"
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1771308696.03074,
+    "ast_hash": "a9819ba4d76ccd81cf1f7b18e06c77d0",
+    "semantic_hash": "a9819ba4d76ccd81cf1f7b18e06c77d0"
+  },
+  ".vscode/launch.json": {
+    "mtime": 1776321456.5353854,
+    "ast_hash": "b939dea735cf9d32842d6a2c44474427",
+    "semantic_hash": "b939dea735cf9d32842d6a2c44474427"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1781680490.8978,
+    "ast_hash": "204549938de20ab799b4667a316b96e2",
+    "semantic_hash": "204549938de20ab799b4667a316b96e2"
+  },
+  "Assets/Editor/FindMissingScripts.cs": {
+    "mtime": 1772450578.8816707,
+    "ast_hash": "0ed1cc0edd8fecb3349501d21d07942f",
+    "semantic_hash": "0ed1cc0edd8fecb3349501d21d07942f"
+  },
+  "Assets/Editor/SimpleCustomEditor.cs": {
+    "mtime": 1781697877.5105147,
+    "ast_hash": "3d72c2b92a5b743feddb6d3de57839e7",
+    "semantic_hash": "3d72c2b92a5b743feddb6d3de57839e7"
+  },
+  "Assets/Example/Scripts/ARCheckAvailability.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "3a987cc32d9b05b4ed566eabf9637352",
+    "semantic_hash": "3a987cc32d9b05b4ed566eabf9637352"
+  },
+  "Assets/Example/Scripts/ARLogoPinner.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "5558bf6fb3527bebf70d8dfd3d28578c",
+    "semantic_hash": "5558bf6fb3527bebf70d8dfd3d28578c"
+  },
+  "Assets/Example/Scripts/ReceiveFromFlutterRotation.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "4a36f1d8fa8b5ddbdcb7fc39118778a8",
+    "semantic_hash": "4a36f1d8fa8b5ddbdcb7fc39118778a8"
+  },
+  "Assets/Example/Scripts/SceneSwitcher.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "9591c9489b889a0c8bee1a86270f7d3a",
+    "semantic_hash": "9591c9489b889a0c8bee1a86270f7d3a"
+  },
+  "Assets/Example/Scripts/SendToFlutterSceneLoaded.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "6ddb97448e17aa013ff2ba53cca9a662",
+    "semantic_hash": "6ddb97448e17aa013ff2ba53cca9a662"
+  },
+  "Assets/Example/Scripts/SendToFlutterTouched.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "7c1689eeb37d2cefe2d4957454cab43b",
+    "semantic_hash": "7c1689eeb37d2cefe2d4957454cab43b"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExportChecker.cs": {
+    "mtime": 1758900054.0,
+    "ast_hash": "5e240c7815348d068462ee5879130816",
+    "semantic_hash": "5e240c7815348d068462ee5879130816"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExportHelpers.cs": {
+    "mtime": 1758900054.0,
+    "ast_hash": "1e2cceeb9fabf4905aa1759251fe0278",
+    "semantic_hash": "1e2cceeb9fabf4905aa1759251fe0278"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExporter.cs": {
+    "mtime": 1758900054.0,
+    "ast_hash": "8cab4309d927350b105f19f88c12a9f0",
+    "semantic_hash": "8cab4309d927350b105f19f88c12a9f0"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExporterAndroid.cs": {
+    "mtime": 1758904871.0,
+    "ast_hash": "c29d9e11491697d928f7b9927b75233f",
+    "semantic_hash": "c29d9e11491697d928f7b9927b75233f"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExporterBatchmode.cs": {
+    "mtime": 1758900054.0,
+    "ast_hash": "0e3efa1929bf937b8588492edff4fc23",
+    "semantic_hash": "0e3efa1929bf937b8588492edff4fc23"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExporterIos.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "a4a08c342b03c7c2c485262cda3ed11d",
+    "semantic_hash": "a4a08c342b03c7c2c485262cda3ed11d"
+  },
+  "Assets/FlutterEmbed/Editor/ProjectExporterMenuItem.cs": {
+    "mtime": 1748003910.0,
+    "ast_hash": "892a603bf6598297e8ebcd7a781f7dd0",
+    "semantic_hash": "892a603bf6598297e8ebcd7a781f7dd0"
+  },
+  "Assets/FlutterEmbed/SendToFlutter/SendToFlutter.cs": {
+    "mtime": 1758900056.0,
+    "ast_hash": "75dfbc75ad466761c93b71ff90ddc499",
+    "semantic_hash": "75dfbc75ad466761c93b71ff90ddc499"
+  },
+  "Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "5036a1b8dade22055d9d5cfa4ae414f4",
+    "semantic_hash": "5036a1b8dade22055d9d5cfa4ae414f4"
+  },
+  "Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "9102645d1d63906fbafab4e8e9f27b9e",
+    "semantic_hash": "9102645d1d63906fbafab4e8e9f27b9e"
+  },
+  "Assets/MobileARTemplateAssets/Scripts/GoalManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "a49dd03a6867bbc71a2746d04458e196",
+    "semantic_hash": "a49dd03a6867bbc71a2746d04458e196"
+  },
+  "Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "13b2bbc453bbb0b7a0b47fc67ea2ef4c",
+    "semantic_hash": "13b2bbc453bbb0b7a0b47fc67ea2ef4c"
+  },
+  "Assets/Plugins/Android/mainTemplate.gradle": {
+    "mtime": 1782984097.780896,
+    "ast_hash": "4f5171a79932b489a3d0231e50bc3459",
+    "semantic_hash": "4f5171a79932b489a3d0231e50bc3459"
+  },
+  "Assets/Plugins/Android/settingsTemplate.gradle": {
+    "mtime": 1782984097.7865438,
+    "ast_hash": "af42e96562f2799359c355595dfe5dbf",
+    "semantic_hash": "af42e96562f2799359c355595dfe5dbf"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/ARViewManager.cs": {
+    "mtime": 1772615246.8931623,
+    "ast_hash": "af869356c66a4bd3da308268d3219525",
+    "semantic_hash": "af869356c66a4bd3da308268d3219525"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/CircleRenderer.cs": {
+    "mtime": 1772615246.8934255,
+    "ast_hash": "d0f6aaa131edcc5ac94aae341667ea1e",
+    "semantic_hash": "d0f6aaa131edcc5ac94aae341667ea1e"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/CloudAnchorHistory.cs": {
+    "mtime": 1772615246.8937368,
+    "ast_hash": "7b369d4ef5ce4621531cb7787d0d05b8",
+    "semantic_hash": "7b369d4ef5ce4621531cb7787d0d05b8"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/DoubleLabelsItem.cs": {
+    "mtime": 1772615246.8939953,
+    "ast_hash": "595a8503746cdb6d98e2e03ee3e5ecac",
+    "semantic_hash": "595a8503746cdb6d98e2e03ee3e5ecac"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/MapQualityBar.cs": {
+    "mtime": 1772615246.8942287,
+    "ast_hash": "14f565512e84f3ecdef5887ec5cd6e84",
+    "semantic_hash": "14f565512e84f3ecdef5887ec5cd6e84"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/MapQualityIndicator.cs": {
+    "mtime": 1772615246.894487,
+    "ast_hash": "70512878a37c5e65b8a345d53b2969d0",
+    "semantic_hash": "70512878a37c5e65b8a345d53b2969d0"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/MultiselectionDropdown.cs": {
+    "mtime": 1772615246.894747,
+    "ast_hash": "dadb1ad750a17a43102ac04b8e51f90e",
+    "semantic_hash": "dadb1ad750a17a43102ac04b8e51f90e"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/PersistentCloudAnchorsController.cs": {
+    "mtime": 1772615246.8949857,
+    "ast_hash": "cbedf9e9a4b814cb6c8f81d15f73c852",
+    "semantic_hash": "cbedf9e9a4b814cb6c8f81d15f73c852"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/ResolveMenuManager.cs": {
+    "mtime": 1772615246.895273,
+    "ast_hash": "117eedef30f0d531a6b898f125f26e74",
+    "semantic_hash": "117eedef30f0d531a6b898f125f26e74"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Scripts/SafeAreaScaler.cs": {
+    "mtime": 1772615246.8955412,
+    "ast_hash": "cfa8af915d99ec91eddef969e91c0a58",
+    "semantic_hash": "cfa8af915d99ec91eddef969e91c0a58"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Scripts/Editor/GeospatialPreprocessBuild.cs": {
+    "mtime": 1778138214.537532,
+    "ast_hash": "4477996b35f5e309e9128d4f581eed72",
+    "semantic_hash": "4477996b35f5e309e9128d4f581eed72"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Scripts/GeospatialAnchorHistory.cs": {
+    "mtime": 1778138214.5378294,
+    "ast_hash": "4cbd4a2c2e3befbe7f3ac49052cabab9",
+    "semantic_hash": "4cbd4a2c2e3befbe7f3ac49052cabab9"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Scripts/GeospatialController.cs": {
+    "mtime": 1781852455.4008088,
+    "ast_hash": "fac289f110a32095ca00a2a4af1305fe",
+    "semantic_hash": "fac289f110a32095ca00a2a4af1305fe"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Scripts/SafeAreaScaler.cs": {
+    "mtime": 1778138214.5384917,
+    "ast_hash": "e33fdfb6b0041edae245deef26bffc95",
+    "semantic_hash": "e33fdfb6b0041edae245deef26bffc95"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Scripts/ARSampleMenuManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "0cdb7afc943fcca112537adc64dfe3d7",
+    "semantic_hash": "0cdb7afc943fcca112537adc64dfe3d7"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/Editor/Scripts/ARStarterAssetsSampleProjectValidation.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "43438a464687f3d87b381fa89d1d3bb6",
+    "semantic_hash": "43438a464687f3d87b381fa89d1d3bb6"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/Scripts/ARContactSpawnTrigger.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "429729f23d5f6768aae1bd9fc4e0731c",
+    "semantic_hash": "429729f23d5f6768aae1bd9fc4e0731c"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "405c30577ccadaa4a027c88eee5d9b7c",
+    "semantic_hash": "405c30577ccadaa4a027c88eee5d9b7c"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "4f39622a5d25f67165029e74bba28076",
+    "semantic_hash": "4f39622a5d25f67165029e74bba28076"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "f9beb02954c223f2361285980335d66b",
+    "semantic_hash": "f9beb02954c223f2361285980335d66b"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "73e449cafd0cdf074f01f5c275cdcc76",
+    "semantic_hash": "73e449cafd0cdf074f01f5c275cdcc76"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "4e4178368eed3313bbd2cbca1f135483",
+    "semantic_hash": "4e4178368eed3313bbd2cbca1f135483"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "d4ffbcbae598aaf0b3c14bf63f9c78bf",
+    "semantic_hash": "d4ffbcbae598aaf0b3c14bf63f9c78bf"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ControllerAnimator.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "2286e1d071380522fd69e2a92aef6057",
+    "semantic_hash": "2286e1d071380522fd69e2a92aef6057"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ControllerInputActionManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "2a1c6eace4b054121a1e88501c4a54c4",
+    "semantic_hash": "2a1c6eace4b054121a1e88501c4a54c4"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/DestroySelf.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "8ce36f7c746e238515961803ee72b3bb",
+    "semantic_hash": "8ce36f7c746e238515961803ee72b3bb"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/DynamicMoveProvider.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "2984314ba1c301406a25bd69c932e7de",
+    "semantic_hash": "2984314ba1c301406a25bd69c932e7de"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/GazeInputManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "acd54bbf4b7626d4d94b3946af7da5a2",
+    "semantic_hash": "acd54bbf4b7626d4d94b3946af7da5a2"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/MaterialPipelineHandler.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "0af5da0d8d2442c3986c0679592df15d",
+    "semantic_hash": "0af5da0d8d2442c3986c0679592df15d"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ObjectSpawner.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "43d3ffb42583fceaffb330d7cf73ac4f",
+    "semantic_hash": "43d3ffb42583fceaffb330d7cf73ac4f"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/PermissionsManager.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "90d8a25d17655f190ab031ee1a90f21a",
+    "semantic_hash": "90d8a25d17655f190ab031ee1a90f21a"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/PlatformUnderstanding.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "d3c13b48a8524b5e9872a878b330f840",
+    "semantic_hash": "d3c13b48a8524b5e9872a878b330f840"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "20f46ed164c1bfbe7bfd9f5eec443ecf",
+    "semantic_hash": "20f46ed164c1bfbe7bfd9f5eec443ecf"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "1fc5081d0a5ab3ff5c2b65912e5fde3c",
+    "semantic_hash": "1fc5081d0a5ab3ff5c2b65912e5fde3c"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ToggleColorToggler.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "157ba6be545759ced2b10a152d040876",
+    "semantic_hash": "157ba6be545759ced2b10a152d040876"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/ToggleComponentZone.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "ad7d55569b362605a725aa0f9aa53caf",
+    "semantic_hash": "ad7d55569b362605a725aa0f9aa53caf"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "8a612c1fc9f5a2c8d941629d7172369f",
+    "semantic_hash": "8a612c1fc9f5a2c8d941629d7172369f"
+  },
+  "Assets/Scripts/Core/DriftCorrector.cs": {
+    "mtime": 1782977952.7126455,
+    "ast_hash": "e6a6b93bd2f89c09f3d8b8c4a7a98833",
+    "semantic_hash": "e6a6b93bd2f89c09f3d8b8c4a7a98833"
+  },
+  "Assets/Scripts/Core/NavigationController.cs": {
+    "mtime": 1782983875.4053073,
+    "ast_hash": "5d2dfda89a6ee1d6813459e2d2f01f61",
+    "semantic_hash": "5d2dfda89a6ee1d6813459e2d2f01f61"
+  },
+  "Assets/Scripts/Core/PoiManager.cs": {
+    "mtime": 1781852520.4564342,
+    "ast_hash": "c532541a0c150d39fbe63ccff55f0ca0",
+    "semantic_hash": "c532541a0c150d39fbe63ccff55f0ca0"
+  },
+  "Assets/Scripts/Data/PointOfInterest.cs": {
+    "mtime": 1781785185.5896912,
+    "ast_hash": "0bc8153ddcf36d6061c1baf0020f9729",
+    "semantic_hash": "0bc8153ddcf36d6061c1baf0020f9729"
+  },
+  "Assets/Scripts/Debug/ARStartupDebug.cs": {
+    "mtime": 1772522222.7251863,
+    "ast_hash": "0349807fc8e6d91d8e423efd574f4a5e",
+    "semantic_hash": "0349807fc8e6d91d8e423efd574f4a5e"
+  },
+  "Assets/Scripts/Debug/GeospatialDebugUI.cs": {
+    "mtime": 1781843578.271868,
+    "ast_hash": "6122b746987d1a97609295d38fc5581a",
+    "semantic_hash": "6122b746987d1a97609295d38fc5581a"
+  },
+  "Assets/Scripts/Navigation/TurnClassifier.cs": {
+    "mtime": 1782907254.743314,
+    "ast_hash": "a5ce98f2d709f54c603b5793f59c66fa",
+    "semantic_hash": "a5ce98f2d709f54c603b5793f59c66fa"
+  },
+  "Assets/Scripts/Navigation/UserMovementTracker.cs": {
+    "mtime": 1782907264.0605025,
+    "ast_hash": "c7c31a76d9782cd8057e523da8947241",
+    "semantic_hash": "c7c31a76d9782cd8057e523da8947241"
+  },
+  "Assets/Scripts/Navigation/WaypointProximityDetector.cs": {
+    "mtime": 1782917941.8502347,
+    "ast_hash": "e274a05247f882722a454a4fdef9893c",
+    "semantic_hash": "e274a05247f882722a454a4fdef9893c"
+  },
+  "Assets/Scripts/Navigation/WrongWayDetector.cs": {
+    "mtime": 1782907275.3381896,
+    "ast_hash": "e6560126a2e9a4caec2881ffd074395b",
+    "semantic_hash": "e6560126a2e9a4caec2881ffd074395b"
+  },
+  "Assets/Scripts/UX/BillboardToCamera.cs": {
+    "mtime": 1782907299.6652825,
+    "ast_hash": "78087dbc12ec37d3731da0b948dcaebd",
+    "semantic_hash": "78087dbc12ec37d3731da0b948dcaebd"
+  },
+  "Assets/Scripts/UX/CanvasScripts/BillboardCanvas.cs": {
+    "mtime": 1777533043.451014,
+    "ast_hash": "cfd3ffb1914c183d2cacb4ab608aa298",
+    "semantic_hash": "cfd3ffb1914c183d2cacb4ab608aa298"
+  },
+  "Assets/Scripts/UX/DirectionArrow.cs": {
+    "mtime": 1782907341.1136134,
+    "ast_hash": "2c01c376537ecebb36966f89efd8ae40",
+    "semantic_hash": "2c01c376537ecebb36966f89efd8ae40"
+  },
+  "Assets/Scripts/UX/DistanceScaler.cs": {
+    "mtime": 1782907309.4785497,
+    "ast_hash": "1768e49e42a61b64b8fc3bb8b497b35e",
+    "semantic_hash": "1768e49e42a61b64b8fc3bb8b497b35e"
+  },
+  "Assets/Scripts/UX/HeightClamp.cs": {
+    "mtime": 1782907318.2182875,
+    "ast_hash": "c4e4867bfc1bd9b13d02a64f3d2ae5f0",
+    "semantic_hash": "c4e4867bfc1bd9b13d02a64f3d2ae5f0"
+  },
+  "Assets/Scripts/UX/SmoothedHeading.cs": {
+    "mtime": 1782913383.9292397,
+    "ast_hash": "9c79224c14b60154d7e48b2b6c45b886",
+    "semantic_hash": "9c79224c14b60154d7e48b2b6c45b886"
+  },
+  "Assets/Scripts/UX/TurnPOISpawner.cs": {
+    "mtime": 1782907351.356391,
+    "ast_hash": "9dcccc71f67d9a57d17a09c115132acb",
+    "semantic_hash": "9dcccc71f67d9a57d17a09c115132acb"
+  },
+  "Assets/Scripts/UX/WorldSpacePanelUI.cs": {
+    "mtime": 1782907236.9494827,
+    "ast_hash": "8916e2920203ac1a22f4c3e72f01c742",
+    "semantic_hash": "8916e2920203ac1a22f4c3e72f01c742"
+  },
+  "Assets/Scripts/Utilities/GeoMath.cs": {
+    "mtime": 1782907245.3052597,
+    "ast_hash": "83ec11547c5f59e26e0912398a719dc4",
+    "semantic_hash": "83ec11547c5f59e26e0912398a719dc4"
+  },
+  "Assets/Scripts/Utilities/GeoNavIntersection.cs": {
+    "mtime": 1782900237.6101472,
+    "ast_hash": "e35a330d166ac70672ebbecdcec7da8b",
+    "semantic_hash": "e35a330d166ac70672ebbecdcec7da8b"
+  },
+  "Assets/Scripts/Utilities/GeoUtils.cs": {
+    "mtime": 1782108404.394979,
+    "ast_hash": "55f5e27c8004b3fdf62ae5a27021677e",
+    "semantic_hash": "55f5e27c8004b3fdf62ae5a27021677e"
+  },
+  "Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs": {
+    "mtime": 1764723158.0,
+    "ast_hash": "c254bd269ec04cb3bcb528ae427ab551",
+    "semantic_hash": "c254bd269ec04cb3bcb528ae427ab551"
+  },
+  "Assets/TextMesh Pro/Sprites/EmojiOne.json": {
+    "mtime": 1690040293.0,
+    "ast_hash": "3cc172b271fdc3fdfad5e6c2c8c65a33",
+    "semantic_hash": "3cc172b271fdc3fdfad5e6c2c8c65a33"
+  },
+  "Packages/manifest.json": {
+    "mtime": 1778218990.4524317,
+    "ast_hash": "c315412613496cc83b14d5bda8741798",
+    "semantic_hash": "c315412613496cc83b14d5bda8741798"
+  },
+  "Packages/packages-lock.json": {
+    "mtime": 1778218990.4740627,
+    "ast_hash": "51098aa378241ca9e78f3bc24af0fef6",
+    "semantic_hash": "51098aa378241ca9e78f3bc24af0fef6"
+  },
+  "ProjectSettings/ARCoreExtensionsProjectSettings.json": {
+    "mtime": 1778132051.5136158,
+    "ast_hash": "c88f2f57dfd44c68bf4fea4ce0360514",
+    "semantic_hash": "c88f2f57dfd44c68bf4fea4ce0360514"
+  },
+  "ProjectSettings/BurstAotSettings_Android.json": {
+    "mtime": 1764723158.0,
+    "ast_hash": "84c8c828d4fbc2b96e447b1a86bf19ec",
+    "semantic_hash": "84c8c828d4fbc2b96e447b1a86bf19ec"
+  },
+  "ProjectSettings/BurstAotSettings_StandaloneWindows.json": {
+    "mtime": 1764723158.0,
+    "ast_hash": "ba7ab1649c6fea19ae7b0d60bf52f880",
+    "semantic_hash": "ba7ab1649c6fea19ae7b0d60bf52f880"
+  },
+  "ProjectSettings/CommonBurstAotSettings.json": {
+    "mtime": 1764723158.0,
+    "ast_hash": "a36f5e148117ae7896006c74d268be5d",
+    "semantic_hash": "a36f5e148117ae7896006c74d268be5d"
+  },
+  "ProjectSettings/Packages/com.unity.ai.assistant/Settings.json": {
+    "mtime": 1778134843.191497,
+    "ast_hash": "c90339c055881e564d042a57edf62c38",
+    "semantic_hash": "c90339c055881e564d042a57edf62c38"
+  },
+  "ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json": {
+    "mtime": 1771308714.8091824,
+    "ast_hash": "c3f9a03048e2b52ab360c8d9ab23a880",
+    "semantic_hash": "c3f9a03048e2b52ab360c8d9ab23a880"
+  },
+  "ProjectSettings/Packages/com.unity.template-authoring/Settings.json": {
+    "mtime": 1764723158.0,
+    "ast_hash": "be5bb7a20d32b59a2e9994d66ce7d7c6",
+    "semantic_hash": "be5bb7a20d32b59a2e9994d66ce7d7c6"
+  },
+  "ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json": {
+    "mtime": 1771308709.8783994,
+    "ast_hash": "6e3b6ce3a6c6c017e58a058c16bb1986",
+    "semantic_hash": "6e3b6ce3a6c6c017e58a058c16bb1986"
+  },
+  "ProjectSettings/SceneTemplateSettings.json": {
+    "mtime": 1764723158.0,
+    "ast_hash": "d59f79f7345e389ea69d2f373bbe688e",
+    "semantic_hash": "d59f79f7345e389ea69d2f373bbe688e"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/CMakeCache.txt": {
+    "mtime": 1781776499.6403408,
+    "ast_hash": "61c26287c514c6fda092dc1d2a0f104d",
+    "semantic_hash": "61c26287c514c6fda092dc1d2a0f104d"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1782984113.5959036,
+    "ast_hash": "a6192765569f1cae6195c0e9c36cb94e",
+    "semantic_hash": "a6192765569f1cae6195c0e9c36cb94e"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/additional_project_files.txt": {
+    "mtime": 1782984113.6260395,
+    "ast_hash": "f5c53aac748dbd3a0fc3133ce0920c3d",
+    "semantic_hash": "f5c53aac748dbd3a0fc3133ce0920c3d"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/build_file_index.txt": {
+    "mtime": 1781765205.9062626,
+    "ast_hash": "2ae11d17d41bc14505a55e5d1b944c49",
+    "semantic_hash": "2ae11d17d41bc14505a55e5d1b944c49"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/metadata_generation_command.txt": {
+    "mtime": 1781765205.9055142,
+    "ast_hash": "07e78786d76e37434b7930ee292e6276",
+    "semantic_hash": "07e78786d76e37434b7930ee292e6276"
+  },
+  ".utmp/Debug/3h4z5z66/arm64-v8a/symbol_folder_index.txt": {
+    "mtime": 1781765205.9059725,
+    "ast_hash": "737eb194d950aa3fa1e0bdcc88011596",
+    "semantic_hash": "737eb194d950aa3fa1e0bdcc88011596"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/CMakeCache.txt": {
+    "mtime": 1781776501.4629037,
+    "ast_hash": "342c98f2185a6b970976037e04599a22",
+    "semantic_hash": "342c98f2185a6b970976037e04599a22"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1782984115.8220236,
+    "ast_hash": "65be5f97d7517808990c90e73d74456d",
+    "semantic_hash": "65be5f97d7517808990c90e73d74456d"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/additional_project_files.txt": {
+    "mtime": 1782984115.8381083,
+    "ast_hash": "f5c53aac748dbd3a0fc3133ce0920c3d",
+    "semantic_hash": "f5c53aac748dbd3a0fc3133ce0920c3d"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/build_file_index.txt": {
+    "mtime": 1781765210.8616793,
+    "ast_hash": "2ae11d17d41bc14505a55e5d1b944c49",
+    "semantic_hash": "2ae11d17d41bc14505a55e5d1b944c49"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/metadata_generation_command.txt": {
+    "mtime": 1781765210.8609226,
+    "ast_hash": "bf4f827a353df1952220e3383e0f0cc6",
+    "semantic_hash": "bf4f827a353df1952220e3383e0f0cc6"
+  },
+  ".utmp/Debug/3h4z5z66/armeabi-v7a/symbol_folder_index.txt": {
+    "mtime": 1781765210.8614473,
+    "ast_hash": "73c5a60c575285c4331e41de593fc52a",
+    "semantic_hash": "73c5a60c575285c4331e41de593fc52a"
+  },
+  ".utmp/Debug/3h4z5z66/hash_key.txt": {
+    "mtime": 1781765205.9734247,
+    "ast_hash": "034691a57cb8b5b3bcf78571f3fea20f",
+    "semantic_hash": "034691a57cb8b5b3bcf78571f3fea20f"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/CMakeCache.txt": {
+    "mtime": 1777441226.9977188,
+    "ast_hash": "d60b523fe0475d00725cc73c55b58c43",
+    "semantic_hash": "d60b523fe0475d00725cc73c55b58c43"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1778241268.4566023,
+    "ast_hash": "cf976f7691366df0333fc4ecad50ad69",
+    "semantic_hash": "cf976f7691366df0333fc4ecad50ad69"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/additional_project_files.txt": {
+    "mtime": 1778241268.511517,
+    "ast_hash": "a714038ae9f5de507fd0a19c66947e70",
+    "semantic_hash": "a714038ae9f5de507fd0a19c66947e70"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/build_file_index.txt": {
+    "mtime": 1777439825.1405213,
+    "ast_hash": "af5db531248452c17c2f91f0a0ff0f8e",
+    "semantic_hash": "af5db531248452c17c2f91f0a0ff0f8e"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/metadata_generation_command.txt": {
+    "mtime": 1777439825.1399996,
+    "ast_hash": "58e45f89f0856fd80db67611c0e12e06",
+    "semantic_hash": "58e45f89f0856fd80db67611c0e12e06"
+  },
+  ".utmp/Debug/715m566b/arm64-v8a/symbol_folder_index.txt": {
+    "mtime": 1777439825.1403482,
+    "ast_hash": "d7752871f20360f0a2ad1af0a171c36f",
+    "semantic_hash": "d7752871f20360f0a2ad1af0a171c36f"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/CMakeCache.txt": {
+    "mtime": 1777441229.1737149,
+    "ast_hash": "efb2acba237b72f66819bd41c4e9b1ff",
+    "semantic_hash": "efb2acba237b72f66819bd41c4e9b1ff"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1778241271.7107165,
+    "ast_hash": "2bb7ba213858a2934b6f6e67313812c0",
+    "semantic_hash": "2bb7ba213858a2934b6f6e67313812c0"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/additional_project_files.txt": {
+    "mtime": 1778241271.7369304,
+    "ast_hash": "a714038ae9f5de507fd0a19c66947e70",
+    "semantic_hash": "a714038ae9f5de507fd0a19c66947e70"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/build_file_index.txt": {
+    "mtime": 1777439829.7026267,
+    "ast_hash": "af5db531248452c17c2f91f0a0ff0f8e",
+    "semantic_hash": "af5db531248452c17c2f91f0a0ff0f8e"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/metadata_generation_command.txt": {
+    "mtime": 1777439829.7020154,
+    "ast_hash": "5382018904024729fe9d0ae987b5f9bb",
+    "semantic_hash": "5382018904024729fe9d0ae987b5f9bb"
+  },
+  ".utmp/Debug/715m566b/armeabi-v7a/symbol_folder_index.txt": {
+    "mtime": 1777439829.7024148,
+    "ast_hash": "4d0e8410851c0377857421bbba604980",
+    "semantic_hash": "4d0e8410851c0377857421bbba604980"
+  },
+  ".utmp/Debug/715m566b/hash_key.txt": {
+    "mtime": 1777439825.198293,
+    "ast_hash": "6e5e252fd825e3ddb88347aa9c80971d",
+    "semantic_hash": "6e5e252fd825e3ddb88347aa9c80971d"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeCache.txt": {
+    "mtime": 1772622357.7255263,
+    "ast_hash": "aa2a7297a5ab33da2ceda6914599c4f2",
+    "semantic_hash": "aa2a7297a5ab33da2ceda6914599c4f2"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1778238826.9730685,
+    "ast_hash": "e9b2bf60c415749a2170989215d65086",
+    "semantic_hash": "e9b2bf60c415749a2170989215d65086"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/additional_project_files.txt": {
+    "mtime": 1778238827.0119786,
+    "ast_hash": "a714038ae9f5de507fd0a19c66947e70",
+    "semantic_hash": "a714038ae9f5de507fd0a19c66947e70"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/build_file_index.txt": {
+    "mtime": 1772621545.0213463,
+    "ast_hash": "af5db531248452c17c2f91f0a0ff0f8e",
+    "semantic_hash": "af5db531248452c17c2f91f0a0ff0f8e"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/metadata_generation_command.txt": {
+    "mtime": 1772621545.0208611,
+    "ast_hash": "b8a5536b87d6bf0c3517865a2daccc92",
+    "semantic_hash": "b8a5536b87d6bf0c3517865a2daccc92"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/arm64-v8a/symbol_folder_index.txt": {
+    "mtime": 1772621545.021176,
+    "ast_hash": "4868e5169a17177025f63345665737bb",
+    "semantic_hash": "4868e5169a17177025f63345665737bb"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/CMakeCache.txt": {
+    "mtime": 1777382603.7388763,
+    "ast_hash": "e456c6e7db882cba4517aa23af895ba7",
+    "semantic_hash": "e456c6e7db882cba4517aa23af895ba7"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/CMakeFiles/TargetDirectories.txt": {
+    "mtime": 1778238829.393544,
+    "ast_hash": "47ea8b29f16e98684eeb162ba487808c",
+    "semantic_hash": "47ea8b29f16e98684eeb162ba487808c"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/additional_project_files.txt": {
+    "mtime": 1778238829.409285,
+    "ast_hash": "a714038ae9f5de507fd0a19c66947e70",
+    "semantic_hash": "a714038ae9f5de507fd0a19c66947e70"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/build_file_index.txt": {
+    "mtime": 1777359047.307975,
+    "ast_hash": "af5db531248452c17c2f91f0a0ff0f8e",
+    "semantic_hash": "af5db531248452c17c2f91f0a0ff0f8e"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/metadata_generation_command.txt": {
+    "mtime": 1777359047.3074164,
+    "ast_hash": "c1993e2797766b40bc29309fa6cfc80a",
+    "semantic_hash": "c1993e2797766b40bc29309fa6cfc80a"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/armeabi-v7a/symbol_folder_index.txt": {
+    "mtime": 1777359047.3078258,
+    "ast_hash": "32ec00502442b9f52cf8293788588d13",
+    "semantic_hash": "32ec00502442b9f52cf8293788588d13"
+  },
+  ".utmp/RelWithDebInfo/4u4v4r68/hash_key.txt": {
+    "mtime": 1772016359.4117124,
+    "ast_hash": "554b28ea167ee5b8e150d7f6e5f79d85",
+    "semantic_hash": "554b28ea167ee5b8e150d7f6e5f79d85"
+  },
+  "Assets/MobileARTemplateAssets/UI/Fonts/OFL.txt": {
+    "mtime": 1764723158.0,
+    "ast_hash": "9b5866696f148ecfcdb0748da361204d",
+    "semantic_hash": "9b5866696f148ecfcdb0748da361204d"
+  },
+  "Assets/Plugins/Android/proguard-user.txt": {
+    "mtime": 1782984144.159101,
+    "ast_hash": "c5671c8b984fd90128941583344232a6",
+    "semantic_hash": "c5671c8b984fd90128941583344232a6"
+  },
+  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt": {
+    "mtime": 1721760928.9307451,
+    "ast_hash": "175792518e4ac015ab6696d16c4f607e",
+    "semantic_hash": "175792518e4ac015ab6696d16c4f607e"
+  },
+  "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt": {
+    "mtime": 1721760928.9310112,
+    "ast_hash": "fab738fdc2fd92eed39b5b169ddd1d82",
+    "semantic_hash": "fab738fdc2fd92eed39b5b169ddd1d82"
+  },
+  "Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt": {
+    "mtime": 1721760928.9327054,
+    "ast_hash": "e62cc78eb651fcbca90f2111d186902d",
+    "semantic_hash": "e62cc78eb651fcbca90f2111d186902d"
+  },
+  "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt": {
+    "mtime": 1690040293.0,
+    "ast_hash": "a4b00b7892bfb2fc9398e7f292af5b3d",
+    "semantic_hash": "a4b00b7892bfb2fc9398e7f292af5b3d"
+  },
+  "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt": {
+    "mtime": 1690040293.0,
+    "ast_hash": "345c77ed32179f5f982dcf8e2b1d92af",
+    "semantic_hash": "345c77ed32179f5f982dcf8e2b1d92af"
+  },
+  "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt": {
+    "mtime": 1690040293.0,
+    "ast_hash": "d52dd40acd32a62df3bc764b1e783ddf",
+    "semantic_hash": "d52dd40acd32a62df3bc764b1e783ddf"
+  },
+  "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt": {
+    "mtime": 1690040293.0,
+    "ast_hash": "7590fa7ca767331d4e77ab3230efb933",
+    "semantic_hash": "7590fa7ca767331d4e77ab3230efb933"
+  },
+  "Assets/ar_waypoint_navigation_guide.md": {
+    "mtime": 1782899704.609918,
+    "ast_hash": "f7ea0d2de5f918ed770b1fc812f80e4a",
+    "semantic_hash": "f7ea0d2de5f918ed770b1fc812f80e4a"
+  },
+  "ProjectSettings/ProjectVersion.txt": {
+    "mtime": 1772532257.2401233,
+    "ast_hash": "4e586cd42794033540eb91a8c5964fa9",
+    "semantic_hash": "4e586cd42794033540eb91a8c5964fa9"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_analytics.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "f507cc8cacd6c5a22fbf6dd2d9421fbd",
+    "semantic_hash": "f507cc8cacd6c5a22fbf6dd2d9421fbd"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_analytics_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "0ceed4a9eb15d891ba18397e7b883937",
+    "semantic_hash": "0ceed4a9eb15d891ba18397e7b883937"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_auth.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "cfa28c938e07ff1ecd5392896cd3511f",
+    "semantic_hash": "cfa28c938e07ff1ecd5392896cd3511f"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_auth_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "d3c40fe6de793c8f24fcafec73d68546",
+    "semantic_hash": "d3c40fe6de793c8f24fcafec73d68546"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_cloud_messaging.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "49ac7c00b78ad4c9f2417769aadadb03",
+    "semantic_hash": "49ac7c00b78ad4c9f2417769aadadb03"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "8e40334008945d110d08728fab288964",
+    "semantic_hash": "8e40334008945d110d08728fab288964"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_config.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "0bc86bf098eec8824babdf74a2dfaa03",
+    "semantic_hash": "0bc86bf098eec8824babdf74a2dfaa03"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_config_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "0461488ddfbd9af72e048121dcd1d7dc",
+    "semantic_hash": "0461488ddfbd9af72e048121dcd1d7dc"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_crashlytics.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "6058b4f29558f7c3da8270e01a7824e3",
+    "semantic_hash": "6058b4f29558f7c3da8270e01a7824e3"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "4906869b04e5950db7950bb8e8807f55",
+    "semantic_hash": "4906869b04e5950db7950bb8e8807f55"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_database.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "cdf7cb445332c5b516c04c27b4ae42be",
+    "semantic_hash": "cdf7cb445332c5b516c04c27b4ae42be"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_database_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "78dfb811690ff4cd27424cef88dcf5de",
+    "semantic_hash": "78dfb811690ff4cd27424cef88dcf5de"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_functions.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "f5b1938a8a7f159bd290bbebc5a4f448",
+    "semantic_hash": "f5b1938a8a7f159bd290bbebc5a4f448"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_functions_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "20d70d1dd423b25a722d2b13f5175e66",
+    "semantic_hash": "20d70d1dd423b25a722d2b13f5175e66"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_storage.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "95ae216906cbc2096686de7c9ca249d4",
+    "semantic_hash": "95ae216906cbc2096686de7c9ca249d4"
+  },
+  "Assets/Editor Default Resources/Firebase/fb_storage_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "f750be7787d8df2a5e0fff576355859a",
+    "semantic_hash": "f750be7787d8df2a5e0fff576355859a"
+  },
+  "Assets/Editor Default Resources/Firebase/firebase_lockup.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "0ec419420e5bbda440dcf6d965cb1c72",
+    "semantic_hash": "0ec419420e5bbda440dcf6d965cb1c72"
+  },
+  "Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png": {
+    "mtime": 1480838400.0,
+    "ast_hash": "fc8e29c92eede1f193995450f258d700",
+    "semantic_hash": "fc8e29c92eede1f193995450f258d700"
+  },
+  "Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileTemplateImage.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "5764d2cbf72c769b19ba4c9500e3f7ce",
+    "semantic_hash": "5764d2cbf72c769b19ba4c9500e3f7ce"
+  },
+  "Assets/MobileARTemplateAssets/Tutorial/Images/ARMobileThumbnailLarge.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "9667fb279edb1573ad774611d483f781",
+    "semantic_hash": "9667fb279edb1573ad774611d483f781"
+  },
+  "Assets/MobileARTemplateAssets/Tutorial/Images/Unity Logo.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "d885e4026dfaa636e8875b8afbcb4681",
+    "semantic_hash": "d885e4026dfaa636e8875b8afbcb4681"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/ActivationButtonOpaque.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "12c991cd5b11726da91c865eda73faa4",
+    "semantic_hash": "12c991cd5b11726da91c865eda73faa4"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "3a4c2b8188d44d8ad9a4a045c1d59319",
+    "semantic_hash": "3a4c2b8188d44d8ad9a4a045c1d59319"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Highlight.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "107ffaafee59b6d576541e6aa893c204",
+    "semantic_hash": "107ffaafee59b6d576541e6aa893c204"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "960ffdaa88d5531d0ff128dfee1e8e0e",
+    "semantic_hash": "960ffdaa88d5531d0ff128dfee1e8e0e"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Lift_Mask.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "74b513fa98e51d2a8750dc539f7cceae",
+    "semantic_hash": "74b513fa98e51d2a8750dc539f7cceae"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Mask.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "4cda07dd43aa52ad603d46a81fb9f960",
+    "semantic_hash": "4cda07dd43aa52ad603d46a81fb9f960"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Move.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "68b4261312384c277c14c497887c8728",
+    "semantic_hash": "68b4261312384c277c14c497887c8728"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Cube_Rotate.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "118cf033b636ff3e7142bbbe7d6dcba6",
+    "semantic_hash": "118cf033b636ff3e7142bbbe7d6dcba6"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Debug.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "ea00230f185c26393ee34f55772da0ac",
+    "semantic_hash": "ea00230f185c26393ee34f55772da0ac"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-DeleteStroke.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "1f6a784a16093806d82e5d8b25e40f4f",
+    "semantic_hash": "1f6a784a16093806d82e5d8b25e40f4f"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Editor.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "d9abc1957dea655190170c10fbbbc644",
+    "semantic_hash": "d9abc1957dea655190170c10fbbbc644"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchClose.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "8a62fd96c00b31cad9aa13cc12bfc93f",
+    "semantic_hash": "8a62fd96c00b31cad9aa13cc12bfc93f"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_PinchOpen.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "cf3f301ffd50bc6d28d601adfb00d2ca",
+    "semantic_hash": "cf3f301ffd50bc6d28d601adfb00d2ca"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_Touch.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "377ff9a5cf19f48565751041f6e4ccb1",
+    "semantic_hash": "377ff9a5cf19f48565751041f6e4ccb1"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchHold.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "eb4007e88d9a69e3975dd3c7c9a40652",
+    "semantic_hash": "eb4007e88d9a69e3975dd3c7c9a40652"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Gesture_TouchTwoFinger.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "dd3cb16377b1b7aee18a32381b7aaf1d",
+    "semantic_hash": "dd3cb16377b1b7aee18a32381b7aaf1d"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Hints.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "5157f460fc52e10bfe2315da1cc8e198",
+    "semantic_hash": "5157f460fc52e10bfe2315da1cc8e198"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-LiftAxisGizmo.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "4248206107979f92724e228ac5ed5af8",
+    "semantic_hash": "4248206107979f92724e228ac5ed5af8"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-MobileDevice.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "dad37669687d3f0e3cf0d2e0ef7283de",
+    "semantic_hash": "dad37669687d3f0e3cf0d2e0ef7283de"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-MoveAxisGizmos.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "85309ff0e8b9e83908de03b750dc0449",
+    "semantic_hash": "85309ff0e8b9e83908de03b750dc0449"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Options.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "1798790b667afef80ca3a947683cacb6",
+    "semantic_hash": "1798790b667afef80ca3a947683cacb6"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-RotateAxisGizmo.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "f753ddbd73689ec578a44d04a5db752b",
+    "semantic_hash": "f753ddbd73689ec578a44d04a5db752b"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-ScaleAxisGizmo.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "0139e47cfa2ae5a16f780ea112220488",
+    "semantic_hash": "0139e47cfa2ae5a16f780ea112220488"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Surface.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "906f1f50a41eabb5f484eb0775b75e0c",
+    "semantic_hash": "906f1f50a41eabb5f484eb0775b75e0c"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-SurfaceVisual.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "ab016ef21efa1e4c9054f00cb9288077",
+    "semantic_hash": "ab016ef21efa1e4c9054f00cb9288077"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/Icon-Unity.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "6cbb6c8b79982eb76524881385234511",
+    "semantic_hash": "6cbb6c8b79982eb76524881385234511"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "e9645d9a75dad5fa40c1b8ddb572c7c9",
+    "semantic_hash": "e9645d9a75dad5fa40c1b8ddb572c7c9"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/MixedCorners_1.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "4f73689383fa402794d3eab0bb9458a2",
+    "semantic_hash": "4f73689383fa402794d3eab0bb9458a2"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Bottom.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "85c726a69fc5a81f8393a9736295052a",
+    "semantic_hash": "85c726a69fc5a81f8393a9736295052a"
+  },
+  "Assets/MobileARTemplateAssets/UI/Sprites/RoundRadius_10_Top.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "6c6a46ac516a0852d75fb00722c7216b",
+    "semantic_hash": "6c6a46ac516a0852d75fb00722c7216b"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Materials/background.png": {
+    "mtime": 1772615246.886118,
+    "ast_hash": "1b265bcd4f7bc17881cd028010491bf7",
+    "semantic_hash": "1b265bcd4f7bc17881cd028010491bf7"
+  },
+  "Assets/Samples/ARCore Extensions/1.52.0/Persistent Cloud Anchor Sample/Materials/introduction.png": {
+    "mtime": 1772615246.8885517,
+    "ast_hash": "c5e1026a5a6412e220e607e108a7cb52",
+    "semantic_hash": "c5e1026a5a6412e220e607e108a7cb52"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Materials/Icon_Geospatial_1024x1024.png": {
+    "mtime": 1778138214.5314,
+    "ast_hash": "b6adfbb8816be88a41dce37311a8aa44",
+    "semantic_hash": "b6adfbb8816be88a41dce37311a8aa44"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Materials/ic_geospatial_background.png": {
+    "mtime": 1778138214.534368,
+    "ast_hash": "2638d93a6b5d888a4fee9606c90bc92c",
+    "semantic_hash": "2638d93a6b5d888a4fee9606c90bc92c"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Materials/ic_geospatial_foreground.png": {
+    "mtime": 1778138214.5346937,
+    "ast_hash": "166eedf924b089feaa7314216991b43f",
+    "semantic_hash": "166eedf924b089feaa7314216991b43f"
+  },
+  "Assets/Samples/ARCore Extensions/1.54.0/Geospatial Sample/Materials/privacy_prompt_background.png": {
+    "mtime": 1778138214.5350103,
+    "ast_hash": "1b265bcd4f7bc17881cd028010491bf7",
+    "semantic_hash": "1b265bcd4f7bc17881cd028010491bf7"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Circular BG.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "96dd3c9bb25898c3fa8f29189f37d331",
+    "semantic_hash": "96dd3c9bb25898c3fa8f29189f37d331"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Highlight.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "7b31ea387fbdcb80f141a954f5060d36",
+    "semantic_hash": "7b31ea387fbdcb80f141a954f5060d36"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Radius - 4px.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "43b55226dd8568f4a4107da5329ddaad",
+    "semantic_hash": "43b55226dd8568f4a4107da5329ddaad"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Square BG.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "7e9919191bc527f1e5c7c9637bb52855",
+    "semantic_hash": "7e9919191bc527f1e5c7c9637bb52855"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Create.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "07b0e126b784dab0a9601e75edb67d65",
+    "semantic_hash": "07b0e126b784dab0a9601e75edb67d65"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Delete.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "182af026530394e5986c10beef3801de",
+    "semantic_hash": "182af026530394e5986c10beef3801de"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Arch.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "fc306abffbf11937132708101146f228",
+    "semantic_hash": "fc306abffbf11937132708101146f228"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Cylinder.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "5f5855e7ef5c2a700c758128c0f92a04",
+    "semantic_hash": "5f5855e7ef5c2a700c758128c0f92a04"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Debug Cube.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "479ab4482b2480454b19fb3ee9ae88fc",
+    "semantic_hash": "479ab4482b2480454b19fb3ee9ae88fc"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Pyramid.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "245815cd498b5b1ef57e9ad9cba4b5b3",
+    "semantic_hash": "245815cd498b5b1ef57e9ad9cba4b5b3"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Rounded Cube.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "ea2a1304be785a4e816986ee1fe3955c",
+    "semantic_hash": "ea2a1304be785a4e816986ee1fe3955c"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Torus.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "fd10de9d06b26c95cd783319d2a3004e",
+    "semantic_hash": "fd10de9d06b26c95cd783319d2a3004e"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/ARDemoSceneAssets/Sprites/Icon - Object - Wedge.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "55c175dd6e03fae55141e96988803902",
+    "semantic_hash": "55c175dd6e03fae55141e96988803902"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/AR Starter Assets/Textures/PlanePatternDot.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "434dbdeaf1aea051a7dc909608327667",
+    "semantic_hash": "434dbdeaf1aea051a7dc909608327667"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Asset.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "a2c8d7df9cef02f4804c8e42e74eb8c3",
+    "semantic_hash": "a2c8d7df9cef02f4804c8e42e74eb8c3"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "f9af0109f22b05a60d4e115c178ef70d",
+    "semantic_hash": "f9af0109f22b05a60d4e115c178ef70d"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "8f3286a3cfd08ff122c78686e39bf0f0",
+    "semantic_hash": "8f3286a3cfd08ff122c78686e39bf0f0"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "377250027d1004e4251b12546d1d1022",
+    "semantic_hash": "377250027d1004e4251b12546d1d1022"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Forward.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "634ef67f1779fe77bbccb810ef6260a3",
+    "semantic_hash": "634ef67f1779fe77bbccb810ef6260a3"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "9dba20a4cf98acfd8e582122321f5e47",
+    "semantic_hash": "9dba20a4cf98acfd8e582122321f5e47"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "a6fc3ddc82cadce6f11e8f0b44fb8927",
+    "semantic_hash": "a6fc3ddc82cadce6f11e8f0b44fb8927"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "43b55226dd8568f4a4107da5329ddaad",
+    "semantic_hash": "43b55226dd8568f4a4107da5329ddaad"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Textures/DefaultMaterial_AO.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "0766fc260ba59e5e8586b93cafa37a54",
+    "semantic_hash": "0766fc260ba59e5e8586b93cafa37a54"
+  },
+  "Assets/Settings/Project Configuration/TemplateImage.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "db55801882baed70f2b9ab490a55cf6c",
+    "semantic_hash": "db55801882baed70f2b9ab490a55cf6c"
+  },
+  "Assets/TextMesh Pro/Resources/Sprite Assets/InlineIcons.png": {
+    "mtime": 1764723158.0,
+    "ast_hash": "19dfbc2deb54f12db891945407f79bc1",
+    "semantic_hash": "19dfbc2deb54f12db891945407f79bc1"
+  },
+  "Assets/TextMesh Pro/Sprites/EmojiOne.png": {
+    "mtime": 1690040293.0,
+    "ast_hash": "abd61fb690e3df99b4cbd4f114afbd06",
+    "semantic_hash": "abd61fb690e3df99b4cbd4f114afbd06"
+  },
+  "Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav": {
+    "mtime": 1764723158.0,
+    "ast_hash": "78382a87b9b4b37b7c3c3ad7802bb4aa",
+    "semantic_hash": "78382a87b9b4b37b7c3c3ad7802bb4aa"
+  }
+}

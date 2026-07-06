@@ -1,0 +1,62 @@
+.popup-container {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+.poi-popup-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.1843);
+}
+
+.popup-title {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 600px;
+    height: 50px;
+    font-size: 24px;
+    -unity-text-align: middle-left;
+    color: rgb(0, 0, 0);
+}
+
+.popup-description {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    right: 20px;
+    bottom: 120px;
+    font-size: 24px;
+    white-space: normal;
+    -unity-text-align: upper-left;
+    color: rgb(0, 0, 0);
+}
+
+.popup-distance {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    translate: -50% 0;
+    width: 400px;
+    height: 40px;
+    font-size: 24px;
+    -unity-text-align: middle-right;
+    color: rgb(0, 0, 0);
+}
+
+.dismiss-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    translate: -50% 0;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}

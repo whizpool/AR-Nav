@@ -1217,6 +1217,16 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
             {
                 _historyCollection = new GeospatialAnchorHistoryCollection();
             }
+
+            if (_historyCollection != null && _historyCollection.Collection.Count > 0)
+            {
+                Debug.Log(string.Format("Loaded {0} anchor(s) from history:", _historyCollection.Collection.Count));
+                foreach (var anchor in _historyCollection.Collection)
+                {
+                    Debug.Log(string.Format("Anchor: Type={0}, Lat={1:F6}, Lng={2:F6}, Alt={3:F2}, Created={4}",
+                        anchor.AnchorType, anchor.Latitude, anchor.Longitude, anchor.Altitude, anchor.SerializedTime));
+                }
+            }
         }
 
         private void SaveGeospatialAnchorHistory()

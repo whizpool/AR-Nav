@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/PopupUI.uss?fileID=7433441132597879392&amp;guid=c87e6c5df5e544af8b9190fdf6190a98&amp;type=3#PopupUI"/>
+    <ui:VisualElement class="popup-container">
+        <ui:VisualElement class="poi-popup-panel"/>
+        <ui:Label text="POI " name="PopupTitle" class="popup-title"/>
+        <ui:Label text="This is a dummy description for the point of interest." name="PopupDescription" class="popup-description"/>
+        <ui:Label text="150m away" name="PopupDistance" class="popup-distance" style="bottom: 80px; left: 400px; -unity-text-align: middle-center;"/>
+        <ui:Button text="Dismiss" name="DismissButton" class="dismiss-button"/>
+    </ui:VisualElement>
+</ui:UXML>
