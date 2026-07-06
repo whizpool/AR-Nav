@@ -59,7 +59,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         public float maxVisibleDistance = 50f;
 
         [Tooltip("Minimum horizontal accuracy required to place anchors (meters). Relax to 10-15 in GPS-only regions.")]
-        [Range(1f, 20f)]
+        [Range(1f, 200f)]
         public float requiredAccuracy = 10f;
 
 
@@ -79,6 +79,9 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         public bool showAccuracyInUI = true;
         public bool showDriftDebugSpheres = false;
         public Material driftDebugMaterial;
+
+        [Tooltip("Auto-create the hard-coded demo route on startup. Turn OFF for production builds.")]
+        public bool autoCreateTestRoute = true;
 
         // Private components
         private Camera arCamera;
@@ -103,8 +106,6 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
         // Tracking state
         private bool isInitialized = false;
-        private GeospatialPose lastKnownPose;
-        private GeospatialPose initialPose;
 
         // UI callback delegates
         public System.Action<string> OnStatusUpdate;
@@ -126,6 +127,9 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         private bool _waypointNavActive = false;
         private bool _isBuildingPath = false;
         private Coroutine _buildRoutine;
+
+        // Cached to avoid a per-iteration allocation while placing anchors.
+        private readonly WaitForSeconds _anchorPlacementDelay = new WaitForSeconds(0.2f);
 
         private TurnDirection _displayedTurn = TurnDirection.Straight;
         private float _lastReclassifyTime = -999f;
@@ -207,11 +211,15 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
             // Read the geospatial pose once per frame and share it, instead of each
             // sub-system querying the native AREarthManager pose independently.
-            GeospatialPose? pose = earthManager != null
-                ? earthManager.CameraGeospatialPose
-                : (GeospatialPose?)null;
+            // Only valid while Earth is actively Tracking — otherwise leave it null.
+            // (GeospatialPose is a struct, so pose.HasValue alone is NOT a validity
+            // check: it would be true whenever earthManager != null.)
+            GeospatialPose? pose =
+                (earthManager != null && earthManager.EarthTrackingState == TrackingState.Tracking)
+                    ? earthManager.CameraGeospatialPose
+                    : (GeospatialPose?)null;
 
-            UpdateTrackingState(pose);
+            UpdateTrackingState();
             UpdateVisibleAnchors();
 
             if (showAccuracyInUI && pose.HasValue)
@@ -224,6 +232,10 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         void OnDestroy()
         {
             ClearPath();
+
+            if (driftCorrector != null)
+                driftCorrector.OnExtremeDriftDetected.RemoveListener(RecreateAllAnchors);
+
             if (_proximity != null)
                 _proximity.OnStatusUpdated -= OnProximityDetectorStatusUpdated;
 
@@ -353,15 +365,17 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
             LogStatus($"Waiting for GPS accuracy ≤ {requiredAccuracy}m (GPS-only mode — this may take 30–60s in open sky)...");
             yield return new WaitUntil(() =>
+                earthManager.EarthTrackingState == TrackingState.Tracking &&
                 earthManager.CameraGeospatialPose.HorizontalAccuracy <= requiredAccuracy);
 
-            initialPose = earthManager.CameraGeospatialPose;
-            LogStatus($"Geospatial tracking acquired! Accuracy: {initialPose.HorizontalAccuracy:F2}m");
+            GeospatialPose acquiredPose = earthManager.CameraGeospatialPose;
+            LogStatus($"Geospatial tracking acquired! Accuracy: {acquiredPose.HorizontalAccuracy:F2}m");
 
             isInitialized = true;
             OnTrackingStateChanged?.Invoke(true);
 
-            CreateTestRouteFromCurrentLocation();
+            if (autoCreateTestRoute)
+                CreateTestRouteFromCurrentLocation();
         }
 
         #endregion
@@ -423,6 +437,12 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
             LogStatus($"Creating navigation path with {routePoints.Count} route points (GPS accuracy: {currentAccuracy:F2}m)...");
 
+            // A brand-new (non-recreation) route re-enables the one-shot accuracy
+            // refinement. Recreation rebuilds (drift / refinement) keep it latched so
+            // they can't loop — isRecreatingAnchors distinguishes the two.
+            if (!isRecreatingAnchors)
+                _hasRefinedAnchors = false;
+
             ClearPath();
             currentRoute = new List<GPSCoordinate>(routePoints);
             BuildAndPlaceAnchors(routePoints);
@@ -450,6 +470,16 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         // so anchors placed before a mid-route tracking loss are still monitored.
         void TrackPathAnchor(AnchorData anchorData)
         {
+            // A terrain-resolve callback can still fire after the build was torn down
+            // (ClearPath / a rebuild started). Don't resurrect a cleared path — destroy
+            // the now-orphaned anchor instead of re-adding it to pathAnchors.
+            if (!_isBuildingPath)
+            {
+                if (anchorData?.anchor != null) Destroy(anchorData.anchor.gameObject);
+                if (anchorData?.visualObject != null) Destroy(anchorData.visualObject);
+                return;
+            }
+
             pathAnchors.Add(anchorData);
             if (driftCorrector != null && anchorData.anchor != null)
                 driftCorrector.RegisterAnchor(anchorData.anchor, anchorData.originalCoordinate);
@@ -477,12 +507,16 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
                     if (useTerrainAnchors)
                     {
-                        yield return StartCoroutine(CreateTerrainAnchorAsync(current, rotation, false,
+                        // Yield the enumerator directly (NOT StartCoroutine) so this child
+                        // shares the parent's lifetime — StopCoroutine(_buildRoutine) in
+                        // ClearPath then tears the child down too, instead of letting it
+                        // complete and re-append anchors to a path we just cleared.
+                        yield return CreateTerrainAnchorAsync(current, rotation, false,
                             anchorData =>
                             {
                                 if (anchorData != null) { TrackPathAnchor(anchorData); successCount++; }
                                 else failedCount++;
-                            }));
+                            });
                     }
                     else
                     {
@@ -491,19 +525,19 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                         else failedCount++;
                     }
 
-                    yield return new WaitForSeconds(0.2f);
+                    yield return _anchorPlacementDelay;
                 }
 
                 // Final destination marker
                 GPSCoordinate destination = waypoints[waypoints.Count - 1];
                 if (useTerrainAnchors)
                 {
-                    yield return StartCoroutine(CreateTerrainAnchorAsync(destination, Quaternion.identity, true,
+                    yield return CreateTerrainAnchorAsync(destination, Quaternion.identity, true,
                         anchorData =>
                         {
                             if (anchorData != null) { TrackPathAnchor(anchorData); successCount++; }
                             else failedCount++;
-                        }));
+                        });
                 }
                 else
                 {
@@ -516,6 +550,10 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
                 if (failedCount > waypoints.Count / 2)
                     LogError("⚠️ More than 50% of anchors failed. Check GPS signal quality.");
+            }
+            catch (System.Exception ex)
+            {
+                LogError($"Exception in CreateAnchorsSequentially: {ex.Message}\n{ex.StackTrace}");
             }
             finally
             {
@@ -598,6 +636,11 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
             pathAnchors.Clear();
             currentRoute.Clear();
+
+            // Force the next build to recapture its own batch altitude rather than
+            // reusing this (now-cleared) route's value.
+            _routeBatchAltitude = double.MinValue;
+
             if (driftCorrector != null) driftCorrector.ClearAnchors();
 
             if (poiSpawner != null) poiSpawner.DespawnCurrent();
@@ -729,12 +772,22 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
             if (!showDriftDebugSpheres) return;
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+
+            // Strip the auto-added collider so this debug primitive can't interfere
+            // with AR raycasts / physics.
+            var sphereCollider = sphere.GetComponent<Collider>();
+            if (sphereCollider != null) Destroy(sphereCollider);
+
             sphere.transform.SetParent(parent);
             sphere.transform.localPosition = Vector3.zero;
             sphere.transform.localScale = Vector3.one * 0.3f;
+
             var renderer = sphere.GetComponent<Renderer>();
-            renderer.material.color = driftDebugMaterial != null ? Color.yellow : Color.yellow;
-            if (driftDebugMaterial != null) renderer.material = driftDebugMaterial;
+            if (driftDebugMaterial != null)
+                renderer.sharedMaterial = driftDebugMaterial; // shared — no per-sphere material instance leak
+            else
+                renderer.material.color = Color.yellow;
+
             anchorData.driftDebugSphere = sphere;
         }
 
@@ -779,10 +832,9 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 _hasRefinedAnchors = true;
             }
         }
-        void UpdateTrackingState(GeospatialPose? pose)
+        void UpdateTrackingState()
         {
-            if (earthManager == null || !pose.HasValue) return;
-            lastKnownPose = pose.Value;
+            if (earthManager == null) return;
             TrackingState currentState = earthManager.EarthTrackingState;
             if (currentState != TrackingState.Tracking)
             {
@@ -814,14 +866,16 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
         public GPSCoordinate GetCurrentPosition()
         {
-            if (!isInitialized || earthManager == null) return null;
+            if (!isInitialized || earthManager == null ||
+                earthManager.EarthTrackingState != TrackingState.Tracking) return null;
             GeospatialPose pose = earthManager.CameraGeospatialPose;
             return new GPSCoordinate(pose.Latitude, pose.Longitude, pose.Altitude);
         }
 
         public float GetCurrentAccuracy()
         {
-            if (!isInitialized || earthManager == null) return -1f;
+            if (!isInitialized || earthManager == null ||
+                earthManager.EarthTrackingState != TrackingState.Tracking) return -1f;
             return (float)earthManager.CameraGeospatialPose.HorizontalAccuracy;
         }
 
@@ -838,14 +892,36 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
             if (!isInitialized) return "Initializing...";
             if (earthManager == null) return "Error: Earth Manager not found";
 
-            GeospatialPose pose = earthManager.CameraGeospatialPose;
-            int validAnchors = pathAnchors.Count(a => a.anchor != null && a.anchor.gameObject.activeSelf);
+            bool tracking = earthManager.EarthTrackingState == TrackingState.Tracking;
+
+            // Count anchors whose VISUAL is currently shown. Visibility is toggled on
+            // visualObject (not the anchor GameObject), so testing anchor.activeSelf
+            // would always be true. Manual loop avoids a per-call LINQ allocation.
+            int validAnchors = 0;
+            for (int i = 0; i < pathAnchors.Count; i++)
+            {
+                var a = pathAnchors[i];
+                if (a.anchor != null && a.visualObject != null && a.visualObject.activeSelf)
+                    validAnchors++;
+            }
+
+            string poseBlock;
+            if (tracking)
+            {
+                GeospatialPose pose = earthManager.CameraGeospatialPose;
+                poseBlock =
+                    $"Accuracy: {pose.HorizontalAccuracy:F2}m (H) / {pose.VerticalAccuracy:F2}m (V)\n" +
+                    $"Position: {pose.Latitude:F6}, {pose.Longitude:F6}\n" +
+                    $"Altitude: {pose.Altitude:F1}m\n";
+            }
+            else
+            {
+                poseBlock = "Accuracy: --\nPosition: --\nAltitude: --\n";
+            }
 
             return $"State: {earthManager.EarthTrackingState}\n" +
                    $"GPS Mode: No VPS (GPS-only)\n" +
-                   $"Accuracy: {pose.HorizontalAccuracy:F2}m (H) / {pose.VerticalAccuracy:F2}m (V)\n" +
-                   $"Position: {pose.Latitude:F6}, {pose.Longitude:F6}\n" +
-                   $"Altitude: {pose.Altitude:F1}m\n" +
+                   poseBlock +
                    $"Anchors: {validAnchors}/{pathAnchors.Count} valid\n" +
                    $"Terrain Anchors: {(useTerrainAnchors ? "ON" : "OFF")}\n" +
                    $"Drift Correction: {(driftCorrector != null && driftCorrector.enableDriftCorrection ? "ON" : "OFF")}" +
@@ -859,7 +935,10 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
             float minDistance = float.MaxValue;
             foreach (var anchorData in pathAnchors)
             {
-                if (anchorData.anchor == null || !anchorData.anchor.gameObject.activeSelf) continue;
+                // Only consider currently-visible waypoints. Visibility lives on
+                // visualObject, not the anchor GameObject.
+                if (anchorData.anchor == null ||
+                    anchorData.visualObject == null || !anchorData.visualObject.activeSelf) continue;
                 float d = Vector3.Distance(arCamera.transform.position, anchorData.anchor.transform.position);
                 if (d < minDistance) minDistance = d;
             }
@@ -939,14 +1018,34 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 return 1;
 
             var pose = earthManager.CameraGeospatialPose;
+            Vector3 userLocal = GeoMath.GeoToLocal(
+                pose.Latitude, pose.Longitude, pose.Altitude,
+                _refLat, _refLon, _refAlt);
+            Vector2 user = new Vector2(userLocal.x, userLocal.z);
+
+            // Find the route segment the user is actually on (nearest by perpendicular
+            // projection), then target that segment's END waypoint — i.e. the nearest
+            // *upcoming* waypoint, never one already behind the user (which would
+            // otherwise drive them backwards and trip wrong-way detection).
             int best = 1;
-            double bestDist = double.MaxValue;
+            float bestDistSq = float.MaxValue;
             for (int i = 1; i < currentRoute.Count; i++)
             {
-                double d = GeoMath.HaversineDistance(
-                    pose.Latitude, pose.Longitude,
-                    currentRoute[i].latitude, currentRoute[i].longitude);
-                if (d < bestDist) { bestDist = d; best = i; }
+                Vector3 aLocal = GeoMath.GeoToLocal(
+                    currentRoute[i - 1].latitude, currentRoute[i - 1].longitude, currentRoute[i - 1].altitude,
+                    _refLat, _refLon, _refAlt);
+                Vector3 bLocal = GeoMath.GeoToLocal(
+                    currentRoute[i].latitude, currentRoute[i].longitude, currentRoute[i].altitude,
+                    _refLat, _refLon, _refAlt);
+                Vector2 a = new Vector2(aLocal.x, aLocal.z);
+                Vector2 b = new Vector2(bLocal.x, bLocal.z);
+
+                Vector2 ab = b - a;
+                float segLenSq = ab.sqrMagnitude;
+                float t = segLenSq > 1e-6f ? Mathf.Clamp01(Vector2.Dot(user - a, ab) / segLenSq) : 0f;
+                Vector2 proj = a + t * ab;
+                float dSq = (user - proj).sqrMagnitude;
+                if (dSq < bestDistSq) { bestDistSq = dSq; best = i; }
             }
             return best;
         }
@@ -1009,10 +1108,11 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 dirToWaypoint, Time.deltaTime);
 
             if (wrongWayUI != null)
-            {
                 wrongWayUI.SetActive(wrongWay);
-                UpdateHeadingText(wrongWay ? "Wrong Way!" : _displayedTurn.ToString());
-            }
+
+            // Heading text must update regardless of whether the optional wrongWayUI
+            // GameObject is assigned.
+            UpdateHeadingText(wrongWay ? "Wrong Way!" : _displayedTurn.ToString());
         }
 
         private void UpdateDynamicTurnReclassification(GPSCoordinate wp, float dist)

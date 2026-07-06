@@ -852,13 +852,14 @@ MonoBehaviour:
   terrainPrefab: {fileID: 5831908950388203684, guid: a46bc1cf69cc345ba81f34525c7e1b09, type: 3}
   waypointIntervalMeters: 10
   maxVisibleDistance: 50
-  requiredAccuracy: 11
+  requiredAccuracy: 30
   driftCorrector: {fileID: 384014295}
   useTerrainAnchors: 1
   enableDebugLogs: 1
   showAccuracyInUI: 0
   showDriftDebugSpheres: 0
   driftDebugMaterial: {fileID: 0}
+  autoCreateTestRoute: 1
   poiSpawner: {fileID: 384014297}
   wrongWayUI: {fileID: 0}
 --- !u!114 &384014294
@@ -875,7 +876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Google.XR.ARCoreExtensions.Samples.Geospatial.PoiManager
   navController: {fileID: 384014293}
   anchorManager: {fileID: 596133976}
-  billboardPrefabs: 1
+  billboardPrefabs: 0
   pointsOfInterest:
   - latitude: 33.693274
     longitude: 73.058941
@@ -911,7 +912,7 @@ MonoBehaviour:
   recreateAnchorThreshold: 5
   localizationJumpThreshold: 20
   anchorLifetimeSeconds: 0
-  requiredAccuracy: 11
+  requiredAccuracy: 30
   maxYawAccuracyDegrees: 15
   accuracyNoiseMultiplier: 1.5
   requiredConsecutiveDetections: 3
