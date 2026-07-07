@@ -102,7 +102,6 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         {
             if (!initialized) return;
 
-            if (billboardPrefabs) BillboardNearbyVisuals();
         }
 
         void OnDestroy()
@@ -245,6 +244,10 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 panelInstance.transform.localPosition = Vector3.up * 1.8f;
                 panelInstance.transform.localRotation = Quaternion.identity;
 
+                // Scale down: UI Toolkit world-space panels use 1 unit = 1 pixel,
+                // so a 500px panel would be 500m wide. 0.001 brings it to ~0.5m.
+                panelInstance.transform.localScale = Vector3.one * 0.1f;
+
                 // Ensure active so UIDocument elements are instantiated and resolved
                 panelInstance.gameObject.SetActive(true);
 
@@ -257,26 +260,18 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                     panelInstance.gameObject.SetActive(false);
                 };
 
+                // Billboard: always face the AR camera (Y-axis only)
+                if (panelInstance.GetComponent<BillboardToCamera>() == null)
+                {
+                    panelInstance.gameObject.AddComponent<BillboardToCamera>();
+                }
+
                 record.visual3d = panelInstance.gameObject;
                 record.panelUI = panelInstance;
             }
         }
         #endregion
 
-        #region Visual Helpers
-        void BillboardNearbyVisuals()
-        {
-            if (arCamera == null) return;
-            foreach (var r in nearbyRecords)
-            {
-                if (r.visual3d == null) continue;
-                Vector3 dir = r.visual3d.transform.position - arCamera.transform.position;
-                dir.y = 0; // Rotate only on the Y axis
-                if (dir.sqrMagnitude > 0.001f)
-                    r.visual3d.transform.rotation = Quaternion.LookRotation(dir);
-            }
-        }
-        #endregion
 
     }
 }

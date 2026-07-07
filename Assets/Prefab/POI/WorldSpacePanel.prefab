@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2635165997349142081}
   - component: {fileID: 1887423500328989454}
   - component: {fileID: 4067724211988580268}
+  - component: {fileID: 8916606289023473685}
   m_Layer: 5
   m_Name: WorldSpacePanel
   m_TagString: Untagged
@@ -68,3 +69,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6bd0dff40b849dabb1ca916acb5c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Google.XR.ARCoreExtensions.Samples.Geospatial.WorldSpacePanelUI
+--- !u!114 &8916606289023473685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337499570468579966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742862063bf9a43f68b0f603a57406fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Google.XR.ARCoreExtensions.Samples.Geospatial.BillboardToCamera

@@ -551,10 +551,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 if (failedCount > waypoints.Count / 2)
                     LogError("⚠️ More than 50% of anchors failed. Check GPS signal quality.");
             }
-            catch (System.Exception ex)
-            {
-                LogError($"Exception in CreateAnchorsSequentially: {ex.Message}\n{ex.StackTrace}");
-            }
+            
             finally
             {
                 _isBuildingPath = false;

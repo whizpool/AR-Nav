@@ -852,7 +852,7 @@ MonoBehaviour:
   terrainPrefab: {fileID: 5831908950388203684, guid: a46bc1cf69cc345ba81f34525c7e1b09, type: 3}
   waypointIntervalMeters: 10
   maxVisibleDistance: 50
-  requiredAccuracy: 30
+  requiredAccuracy: 5
   driftCorrector: {fileID: 384014295}
   useTerrainAnchors: 1
   enableDebugLogs: 1
@@ -912,7 +912,7 @@ MonoBehaviour:
   recreateAnchorThreshold: 5
   localizationJumpThreshold: 20
   anchorLifetimeSeconds: 0
-  requiredAccuracy: 30
+  requiredAccuracy: 5
   maxYawAccuracyDegrees: 15
   accuracyNoiseMultiplier: 1.5
   requiredConsecutiveDetections: 3
